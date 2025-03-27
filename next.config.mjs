@@ -5,6 +5,7 @@ const nextConfig = {
       unoptimized: true,
       domains: ['example.com'],
       basePath: "/ViMocViet",
+      assetPrefix: "/ViMocViet", 
     },
 };
 
