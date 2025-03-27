@@ -9,21 +9,21 @@ import { useState } from "react";
 import BackToTopButton from "../components/BackToTopButton";
 
 const dishes = [
-  { id: 1, name: "Cơm Tấm", price: "99,000đ - 299,000đ", img: "/image/comtam.jpg" },
-  { id: 2, name: "Bún Bò Huế", price: "Liên hệ", img: "/image/bunbo.jpg" },
-  { id: 3, name: "Bún Thịt Nướng", price: "Liên hệ", img: "/image/bunthitnuong.jpg" },
-  { id: 4, name: "Cháo Lòng", price: "Liên hệ", img: "/image/chaolong.jpg" },
-  { id: 5, name: "Phở Bò", price: "Liên hệ", img: "/image/phobo.jpg" },
-  { id: 6, name: "Bánh Mì", price: "Liên hệ", img: "/image/banhmi.jpg" },
+  { id: 1, name: "Cơm Tấm", price: "99,000đ - 299,000đ", img: "./image/comtam.jpg" },
+  { id: 2, name: "Bún Bò Huế", price: "Liên hệ", img: "./image/bunbo.jpg" },
+  { id: 3, name: "Bún Thịt Nướng", price: "Liên hệ", img: "./image/bunthitnuong.jpg" },
+  { id: 4, name: "Cháo Lòng", price: "Liên hệ", img: "./image/chaolong.jpg" },
+  { id: 5, name: "Phở Bò", price: "Liên hệ", img: "./image/phobo.jpg" },
+  { id: 6, name: "Bánh Mì", price: "Liên hệ", img: "./image/banhmi.jpg" },
 ];
 
 const recentDishes = [
-  { id: 7, name: "Mực Xào Dưa Leo", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 8, name: "Bắp Cải Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 9, name: "Ốc Hương Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 10, name: "Nấm Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 11, name: "Đậu Hà Lan Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 12, name: "Bún Gạo Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
+  { id: 7, name: "Mực Xào Dưa Leo", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 8, name: "Bắp Cải Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 9, name: "Ốc Hương Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 10, name: "Nấm Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 11, name: "Đậu Hà Lan Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 12, name: "Bún Gạo Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
 ];
 
 const CookingPage = () => {

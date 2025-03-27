@@ -9,21 +9,21 @@ import { useState } from "react";
 import BackToTopButton from "../components/BackToTopButton";
 
 const dishes = [
-  { id: 1, name: "Đậu Hũ Hấp Trứng", price: "99,000đ - 299,000đ", img: "/image/trunghap.jpg" },
-  { id: 2, name: "Cá Thu", price: "Liên hệ", img: "/image/cachepkho.jpg" },
-  { id: 3, name: "Thịt Viên Sốt", price: "Liên hệ", img: "/image/thitvien.jpg" },
-  { id: 4, name: "Đậu Đũa Xào", price: "Liên hệ", img: "/image/daudua.jpg" },
-  { id: 5, name: "Mực Xào Chua", price: "Liên hệ", img: "/image/mucxao.jpg" },
-  { id: 6, name: "Thịt Kho", price: "Liên hệ", img: "/image/thit.jpg" },
+  { id: 1, name: "Đậu Hũ Hấp Trứng", price: "99,000đ - 299,000đ", img: "./image/trunghap.jpg" },
+  { id: 2, name: "Cá Thu", price: "Liên hệ", img: "./image/cachepkho.jpg" },
+  { id: 3, name: "Thịt Viên Sốt", price: "Liên hệ", img: "./image/thitvien.jpg" },
+  { id: 4, name: "Đậu Đũa Xào", price: "Liên hệ", img: "./image/daudua.jpg" },
+  { id: 5, name: "Mực Xào Chua", price: "Liên hệ", img: "./image/mucxao.jpg" },
+  { id: 6, name: "Thịt Kho", price: "Liên hệ", img: "./image/thit.jpg" },
 ];
 
 const recentDishes = [
-  { id: 7, name: "Mực Xào Dưa Leo", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 8, name: "Bắp Cải Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 9, name: "Ốc Hương Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 10, name: "Nấm Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 11, name: "Đậu Hà Lan Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
-  { id: 12, name: "Bún Gạo Xào", price: "Liên hệ", img: "/image/monan1.jpg" },
+  { id: 7, name: "Mực Xào Dưa Leo", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 8, name: "Bắp Cải Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 9, name: "Ốc Hương Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 10, name: "Nấm Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 11, name: "Đậu Hà Lan Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
+  { id: 12, name: "Bún Gạo Xào", price: "Liên hệ", img: "./image/monan1.jpg" },
 ];
 
 const CookingPage = () => {

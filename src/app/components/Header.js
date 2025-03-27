@@ -16,7 +16,7 @@ const HeaderNav = () => {
       {/* Header */}
       <header className="header">
         <div className="logo-search">
-          <Link href="/"><Image src="/image/logo.png" alt="Logo" width={240} height={120} className="logo-image" /></Link>
+          <Link href="/"><Image src="./image/logo.png" alt="Logo" width={240} height={120} className="logo-image" /></Link>
           <input type="text" placeholder="Tìm kiếm công thức..." className="search-bar" />
         </div>
         <button className="cart-btn" style={{ fontSize: "20px", padding: "10px" }}>

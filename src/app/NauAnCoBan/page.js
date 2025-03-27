@@ -18,10 +18,10 @@ const CookingPage = () => {
           {/* Chi tiết khóa học */}
           <div className="course-details">
             <div className="course-image">
-              <Image src="/image/nau an co ban.jpg" alt="Bữa Sáng" width={500} height={300} />
+              <Image src="./image/nau an co ban.jpg" alt="Bữa Sáng" width={500} height={300} />
             </div>
             <div className="course-content">
-              <Image src="/image/cooking.png" width={55} height={30} />
+              <Image src="./image/cooking.png" width={55} height={30} />
               <h1>Khóa Học Cơ Bản</h1>
               <p className="price">500,000₫ - 1,800,000₫</p>
               <div className="course-options">
@@ -108,17 +108,17 @@ const CookingPage = () => {
           <div className="popular-courses">
             <h3>Khóa học mua nhiều</h3>
             <ul>
-            <li><Image src="/image/thit.jpg" width={70} height={50} /><Link href="#">Bánh mì hoa cúc - 199,000₫</Link></li>
-              <li><Image src="/image/monan1.jpg" width={70} height={50} /><Link href="#">Bò cuộn phô mai sốt nấm - 199,000₫</Link></li>
-              <li><Image src="/image/monan2.jpg" width={70} height={50} /><Link href="#">Giò thủ không khuôn - 200,000₫</Link></li>
-              <li><Image src="/image/monan3.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan4.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan5.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan6.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan7.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan8.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan9.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
-              <li><Image src="/image/monan10.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+            <li><Image src="./image/thit.jpg" width={70} height={50} /><Link href="#">Bánh mì hoa cúc - 199,000₫</Link></li>
+              <li><Image src="./image/monan1.jpg" width={70} height={50} /><Link href="#">Bò cuộn phô mai sốt nấm - 199,000₫</Link></li>
+              <li><Image src="./image/monan2.jpg" width={70} height={50} /><Link href="#">Giò thủ không khuôn - 200,000₫</Link></li>
+              <li><Image src="./image/monan3.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan4.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan5.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan6.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan7.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan8.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan9.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
+              <li><Image src="./image/monan10.jpg" width={70} height={50} /><Link href="#">Gói 5 món ngon từ cá và thịt heo - 1,200,000₫</Link></li>
             </ul>
           </div>
         </aside>

@@ -11,14 +11,14 @@ import Header from "./components/Header";
 
 
 const dishes = [
-  { id: 1, name: "Salad Nga", price: "99,000đ - 299,000đ", img: "/image/salad.jpg" },
-  { id: 2, name: "Salad Dưa Chuột", price: "Liên hệ", img: "/image/saladduachuot.jpg" },
-  { id: 3, name: "Salad Bơ Thịt Cua", price: "Liên hệ", img: "/image/saladbo.jpg" },
-  { id: 4, name: "Cá Chép Kho Nghệ", price: "Liên hệ", img: "/image/cachepkho.jpg" },
-  { id: 5, name: "Bún Bò Huế", price: "Liên hệ", img: "/image/bunbo.jpg" },
-  { id: 6, name: "Phở Gà", price: "Liên hệ", img: "/image/phoga.jpg" },
-  { id: 7, name: "Chả Giò", price: "Liên hệ", img: "/image/chagio.jpg" },
-  { id: 8, name: "Bánh Xèo", price: "Liên hệ", img: "/image/banhxeo.jpg" },
+  { id: 1, name: "Salad Nga", price: "99,000đ - 299,000đ", img: "./image/salad.jpg" },
+  { id: 2, name: "Salad Dưa Chuột", price: "Liên hệ", img: "./image/saladduachuot.jpg" },
+  { id: 3, name: "Salad Bơ Thịt Cua", price: "Liên hệ", img: "./image/saladbo.jpg" },
+  { id: 4, name: "Cá Chép Kho Nghệ", price: "Liên hệ", img: "./image/cachepkho.jpg" },
+  { id: 5, name: "Bún Bò Huế", price: "Liên hệ", img: "./image/bunbo.jpg" },
+  { id: 6, name: "Phở Gà", price: "Liên hệ", img: "./image/phoga.jpg" },
+  { id: 7, name: "Chả Giò", price: "Liên hệ", img: "./image/chagio.jpg" },
+  { id: 8, name: "Bánh Xèo", price: "Liên hệ", img: "./image/banhxeo.jpg" },
 ];
 
 const ITEMS_PER_SLIDE = 4;
@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="hero">
-      <Image src="/image/banner2.jpg" alt="Học nấu ăn gia đình" layout="responsive" width={1375} height={509}  />
+      <Image src="./image/banner2.jpg" alt="Học nấu ăn gia đình" layout="responsive" width={1375} height={509}  />
         <div className="hero-content">
           <h1>HỌC NẤU ĂN GIA ĐÌNH</h1>
           <p>Trải nghiệm khóa học chuyên nghiệp, dễ dàng áp dụng vào cuộc sống.</p>
