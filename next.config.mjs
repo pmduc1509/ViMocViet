@@ -4,9 +4,9 @@ const nextConfig = {
     images: {
       unoptimized: true,
       domains: ['example.com'],
-      basePath: "/ViMocViet",
-      assetPrefix: "/ViMocViet", 
     },
+    basePath: "/ViMocViet",
+    assetPrefix: "/ViMocViet", 
 };
 
 export default nextConfig;
