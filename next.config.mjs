@@ -2,11 +2,10 @@
 const nextConfig = {
     output: "export",
     images: {
-      unoptimized: true,
-      domains: ['example.com'],
+    unoptimized: true,
     },
     basePath: "/ViMocViet",
-    assetPrefix: "/ViMocViet", 
+    assetPrefix: "/ViMocViet",
 };
 
 export default nextConfig;
