@@ -1,0 +1,214 @@
+/* Căn chỉnh toàn bộ layout */
+.container {
+    margin: 0 auto;
+    background-image: url('/image/banner.jpg');
+}
+
+/* Bố cục chính */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    background: #fff;
+}
+
+/* Grid món ăn */
+.menu-grid {
+    flex: 3;
+}
+
+.menu-grid h2 {
+    font-size: 24px;
+    color: #6b3b20;
+    margin-bottom: 10px;
+}
+
+.menu-grid p {
+    color:black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.dish-card {
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dish-card img {
+    border-radius: 8px;
+    width: 100%;
+    height: 160px;
+}
+
+.dish-card h3 {
+    font-size: 18px;
+    color: #6b3b20;
+    margin: 10px 0;
+}
+
+.price {
+    color: #A0522D;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    background: #6b3b20;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sidebar bên phải */
+.sidebar {
+    flex: 1;
+}
+
+.sidebar h3{
+    color: white;
+    background: #864401;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 8px;
+    font-weight: 400;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.recent-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #868686;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+
+.recent-list img {
+    border-radius: 5px;
+}
+
+.recent-list a{
+    color: black;
+}
+
+/* Bộ lọc giá */
+.filter-price {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Thanh trượt */
+.filter-price input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff6600, #ffcc00); /* Màu gradient */
+    outline: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.filter-price input[type="range"]:hover {
+    opacity: 1;
+}
+
+/* Nút lọc */
+.filter-btn {
+    background-color: #6b3b20;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.filter-btn:hover {
+    background-color: #552d14;
+}
+
+/* Hiển thị giá trị */
+.price-label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+
+/* Hero Banner */
+.hero-image-archive {
+    background-image: url('/image/banner.jpg'); /* Đổi URL ảnh banner phù hợp */
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+}
+
+.hero-image-archive:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Lớp phủ mờ */
+}
+
+.hero-text-archive {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.entry-divider {
+    width: 50px;
+    height: 5px;
+    background-color: #FFD700;
+    margin: 10px auto;
+}
+
+/* Hiệu ứng sparkle */
+.effect-sparkle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

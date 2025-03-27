@@ -1,0 +1,58 @@
+.daubep-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e7e5e5;
+    
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    background-color: #6b3b20;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.doingubep-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.doingubep-card {
+    width: 320px;
+    background: white;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.doingubep-card:hover {
+    transform: translateY(-5px);
+}
+
+.doingubep-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.daubep-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a3828;
+    margin-top: 10px;
+}
+
+.daubep-role {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    padding: 0 15px;
+}
