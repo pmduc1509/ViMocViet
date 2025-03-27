@@ -6,17 +6,17 @@ const Doingubep = () => {
     {
       name: "ĐB. Đặng Đình Thiết",
       role: "Bếp Trưởng Nhà Hàng Đặc Sản Phương Nam",
-      image: "/image/DaubepA.jpg",
+      image: "./image/DaubepA.jpg",
     },
     {
       name: "ĐB. Đỗ Xuân Trinh",
       role: "Bếp Trưởng Trung Tâm Hội Nghị Tiệc Cưới Grand Palace",
-      image: "/image/DaubepB.jpg",
+      image: "./image/DaubepB.jpg",
     },
     {
       name: "ĐB. Chu Văn Hương",
       role: "Bếp Trưởng Nhà Hàng Biển Xanh",
-      image: "/image/DaubepC.jpg",
+      image: "./image/DaubepC.jpg",
     },
   ];
 

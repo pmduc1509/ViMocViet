@@ -24,7 +24,7 @@ const BestSeller = () => {
 
     {/* Ảnh ở giữa */}
     <div className="why-choose-image">
-      <img src="/image/thit.jpg" alt="Hình ảnh món ăn" />
+      <img src="./image/thit.jpg" alt="Hình ảnh món ăn" />
     </div>
 
     {/* Cột bên phải */}
