@@ -1,7 +1,7 @@
 /* Căn chỉnh toàn bộ layout */
 .container {
     margin: 0 auto;
-    background-image: url('./image/banner.jpg');
+    background-image: url('/image/banner.jpg');
 }
 
 /* Bố cục chính */
@@ -125,7 +125,7 @@
     appearance: none;
     height: 8px;
     border-radius: 5px;
-    background: linear-gradient(to right, #ff6600, #ffcc00); /* Màu gradient */
+    background: linear-gradient(to right, #ff6600, #ffcc00); 
     outline: none;
     opacity: 0.9;
     transition: opacity 0.2s;
@@ -163,7 +163,7 @@
 
 /* Hero Banner */
 .hero-image-archive {
-    background-image: url('./image/banner.jpg'); /* Đổi URL ảnh banner phù hợp */
+    background-image: url('/image/banner.jpg'); /* Đổi URL ảnh banner phù hợp */
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -183,7 +183,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Lớp phủ mờ */
+    background: rgba(0, 0, 0, 0.5); 
 }
 
 .hero-text-archive {
