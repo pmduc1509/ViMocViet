@@ -163,7 +163,7 @@
 
 /* Hero Banner */
 .hero-image-archive {
-    background-image: url('/image/banner.jpg'); /* Đổi URL ảnh banner phù hợp */
+    background-image: url('/image/banner.jpg'); 
     background-size: cover;
     background-position: center;
     height: 150px;

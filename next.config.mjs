@@ -4,6 +4,7 @@ const nextConfig = {
     images: {
       unoptimized: true,
       domains: ['example.com'],
+      basePath: "/ViMocViet",
     },
 };
 
