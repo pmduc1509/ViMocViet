@@ -34,7 +34,7 @@ const Footer = () => {
           <h3 className="footer-title">LIÊN KẾT HỮU ÍCH</h3>
           <div className="footer-divider"></div>
           <ul className="footer-links">
-            <li><Link href="/gioi-thieu">Giới Thiệu</Link></li>
+            <li><Link href="/Aboutus">Giới Thiệu</Link></li>
           </ul>
           <h3 className="footer-title">MẠNG XÃ HỘI</h3>
             <div className="footer-divider"></div>

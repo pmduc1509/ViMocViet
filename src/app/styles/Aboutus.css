@@ -1,0 +1,134 @@
+/* Tổng quan */
+.aboutus-container {
+    min-height: 100vh;
+    background-color: #fff7ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    width: 100%;
+    height: 700px;
+    background-image: url('/ViMocViet/image/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Nội dung chính */
+  .content-container {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Tiêu đề chính */
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f97316;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  /* Kim chỉ nam hoạt động */
+  .guidelines {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000;
+    align-items: center;
+  }
+  
+  .guidelines h3 {
+    color: #f36130;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0 0 13px 0;
+    font-size: 28px;
+  }
+  
+  .guidelines ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guidelines ul li {
+    margin: 5px 0;
+  }
+  
+  /* Phần mô tả */
+  .description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+  }
+  
+  /* Bức ảnh nằm bên trái */
+  .image-container {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Phần chữ nằm bên phải */
+  .text-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .text-container h3 {
+    color: #f36130;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0 0 13px 0;
+    font-size: 28px;
+  }
+  
+  .text-container hr {
+    width: 50px;
+    height: 3px;
+    background-color: #dc2626;
+    border: none;
+    margin: 10px 0;
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
+  .about-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa ảnh và chữ */
+  }
+  
+  .text-block {
+    flex: 1;
+    text-align: left; /* Căn chữ về bên trái */
+  }
+  
+  .image-block {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Đẩy ảnh về bên phải */
+  }
+  
+  

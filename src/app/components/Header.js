@@ -45,19 +45,11 @@ const HeaderNav = () => {
         </div>
 
         <div className="nav-item">
-          <Link href="">SỨC KHỎE</Link>
-          <div className="dropdown">
-            <Link href="/health/nutrition">Dinh dưỡng</Link>
-            <Link href="/health/fitness">Thể chất</Link>
-          </div>
+          <Link href="/Aboutus">Về Chúng Tôi</Link>
         </div>
 
         <div className="nav-item">
           <Link href="">BLOG</Link>
-          <div className="dropdown">
-            <Link href="/blog/tips">Mẹo vặt</Link>
-            <Link href="/blog/stories">Câu chuyện</Link>
-          </div>
         </div>
       </nav>
     </div>

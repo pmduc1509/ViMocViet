@@ -1,0 +1,54 @@
+.section-index-counters {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+    background: #0b1121 url("/ViMocViet/image/theme.webp") center/cover no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .section-index-counters:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .list-counters {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .counters-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .counters-item__inner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 60px;
+    
+  }
+  
+  .counters-img img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .counters-info {
+    color: white;
+    text-align: center;
+  }
+  
+  .value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
