@@ -86,7 +86,7 @@ const HeaderNav = () => {
         </div>
 
         <div className="nav-item">
-          <Link href="/Aboutus">VỀ CHÚNG TÔI</Link>
+          <Link href="/Aboutus">GIỚI THIỆU</Link>
         </div>
 
         <div className="nav-item">
