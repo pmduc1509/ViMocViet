@@ -1,0 +1,105 @@
+.blog-container {
+    font-family: Arial, sans-serif;
+    margin: auto;
+  }
+  
+  .blog-header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+  }
+  
+/* Blog Posts Grid */
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #c28750;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.blog-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.blog-card:hover .blog-image {
+    filter: brightness(70%);
+}
+
+/* Content Overlay */
+.blog-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.blog-meta {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.blog-stats {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.blog-stats span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    opacity: 0.9;
+}
+  
+  .blog-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: #222;
+    color: white;
+  }
+  
+  .hero-section {
+    position: relative;
+    z-index: 1;
+    padding: 150px 0;
+    height: 500px;
+    background: #0b1121 url("/ViMocViet/image/theme.webp") center/cover no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
