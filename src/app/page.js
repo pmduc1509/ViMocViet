@@ -100,7 +100,7 @@ export default function Home() {
         <a 
           data-animate="fadeInRight"
           rel="nofollow"
-          href="/NauAnCoBan"
+          href="/ViMocViet/NauAnCoBan"
           target="_self"
           className="button success lowercase text-center button-redmore"
           data-animated="true"
