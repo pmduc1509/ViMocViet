@@ -18,7 +18,7 @@ const HeaderNav = () => {
   ];
 
   const goToCheckout = () => {
-    window.location.href = "/checkout";
+    window.location.href = "/Checkout";
 };
 
   return (

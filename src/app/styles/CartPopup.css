@@ -27,6 +27,8 @@
     align-items: center;
     gap: 20px;
     color: black;
+    border-bottom: 1px solid  #000;
+    padding: 10px 0px;
   }
   
   .cart-item-image {

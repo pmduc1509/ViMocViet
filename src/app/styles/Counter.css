@@ -2,7 +2,7 @@
     position: relative;
     z-index: 1;
     padding: 100px 0;
-    background: #0b1121 url("/ViMocViet/image/theme.webp") center/cover no-repeat;
+    background: #0b1121 url("/image/theme.webp") center/cover no-repeat;
     background-attachment: fixed;
   }
   
