@@ -160,37 +160,7 @@ const CartCheckout = () => {
                 </div>
               </div>
             </div>
-            <div className="panel">
-              <div className="panel-heading">Phương thức giao hàng</div>
-              <div className="ship-method-container">
-                {[{
-                  id: "standard", img: "./Image/truck.png", name: "Tiết kiệm", days: "5 - 10 Ngày", price: "35.000đ"
-                }, {
-                  id: "priority", img: "./Image/delivery-truck.png", name: "Chuyển phát nhanh", days: "3 - 4 Ngày", price: "87.000đ"
-                }, {
-                  id: "overnight", img: "./Image/fast-delivery.png", name: "Hỏa tốc", days: "1 - 2 Ngày", price: "110.000đ"
-                }].map(({ id, img, name, days, price }) => (
-                  <div key={id} className="ship-method" id={id}>
-                    <button type="button" className="w-100">
-                      <div className="ship-box d-flex align-items-center">
-                        <div className="ship-img">
-                          <img src={img} alt="" style={{ width: "40%" }} />
-                        </div>
-                        <div className="ship-name">
-                          <span>{name}</span>
-                        </div>
-                        <div className="ship-day">
-                          <span>{days}</span>
-                        </div>
-                        <div className="ship-price">
-                          <span>{price}</span>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -8,12 +8,22 @@ body {
 
 
 
-/* Cart body layout */
 .cart-body {
     display: flex;
     gap: 20px;
     margin-top: 20px;
 }
+
+/* Left Column chiếm 65% */
+.left-column {
+    flex: 65%;
+}
+
+/* Right Column chiếm 35% */
+.right-column {
+    flex: 35%;
+}
+
 
 /* Address and payment section */
 .address-payment-section {
