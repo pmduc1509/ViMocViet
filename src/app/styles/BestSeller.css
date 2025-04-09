@@ -5,9 +5,10 @@
   }
   
   .why-choose-section h2 {
-    font-size: 24px;
+    font-size: 40px;
     color: #5c2c06;
     margin-bottom: 10px;
+    font-family: "Lobster", sans-serif;
   }
   
   .why-choose-section p {

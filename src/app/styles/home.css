@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* Định dạng tổng quát */
 body {
     font-family: Arial, sans-serif;
@@ -144,14 +146,19 @@ body {
     text-align: center;
     color: rgb(109, 62, 2);
     margin-bottom: 20px;
-    
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    padding: 15px; 
+    backdrop-filter: blur(4px); 
+    -webkit-backdrop-filter: blur(4px); 
+    max-width: 750px;
 }
 
 .hero-content h1 {
     font-size: 40px;
     margin-bottom: 10px;
-    font-family: serif;
     color:white;
+    font-family: "Lobster", sans-serif;
 }
 
 .hero-content p{
@@ -163,8 +170,8 @@ body {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 100px;
+    font-size: 16px;
     cursor: pointer;
     margin-top: 30px;
 }
@@ -414,4 +421,12 @@ body {
 
 .right {
     right: 0%;
+}
+
+.Uudai {
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
 }

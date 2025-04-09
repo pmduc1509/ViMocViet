@@ -8,7 +8,10 @@ import Doingubep from "./components/Doingubep";
 import Footer from "./components/Footer";
 import BackToTopButton from "./components/BackToTopButton";
 import Header from "./components/Header";
-
+import "../app/styles/FromDatBan.css";
+import BannerGrid from "./components/BannerGrid";
+import WhyChooseUs from "./components/WhyChooseUS";
+import NewPosts from "./components/NewPosts";
 
 const dishes = [
   { id: 1, name: "Salad Nga", price: "99,000đ - 299,000đ", img: "./image/salad.jpg" },
@@ -25,8 +28,18 @@ const ITEMS_PER_SLIDE = 4;
 const TOTAL_SLIDES = Math.ceil(dishes.length / ITEMS_PER_SLIDE) - 1;
 
 export default function Home() {
+   const [showBookingForm, setShowBookingForm] = useState(false);
+   const [showSuccess, setShowSuccess] = useState(false);
   const [dropdown, setDropdown] = useState(null);
   const [index, setIndex] = useState(0);
+
+  const handleBookingSubmit = (e) => {
+    e.preventDefault();
+    setShowBookingForm(false);
+    setShowSuccess(true);
+    setTimeout(() => setShowSuccess(false), 3000); // ẩn sau 3s
+  };  
+  
 
   const nextSlide = () => {
     if (index < TOTAL_SLIDES) {
@@ -59,11 +72,80 @@ export default function Home() {
       <section className="hero">
       <Image src="./image/banner2.jpg" alt="Học nấu ăn gia đình" layout="responsive" width={1375} height={509}  />
         <div className="hero-content">
-          <h1>HỌC NẤU ĂN GIA ĐÌNH</h1>
-          <p>Trải nghiệm khóa học chuyên nghiệp, dễ dàng áp dụng vào cuộc sống.</p>
-          <button className="register-btn">ĐĂNG KÝ HỌC</button>
+          <h1>Ẩm Thực Việt Nam</h1>
+          <p>Không gì tuyệt vời bằng thưởng thức ẩm thực Việt Nam cùng gia đình và người thân. Chúng tôi cung cấp các món lẩu chuẩn vị ẩm thực Việt Nam mang đến cảm giác quen thuộc nhưng cực kỳ đặc sắc cho bạn thưởng thức</p>
+          <button
+            className="register-btn"
+            onClick={() => setShowBookingForm(true)}
+          >
+            Đặt Bàn Ngay
+          </button>
         </div>
       </section>
+
+           {/* Booking Form Popup */}
+           {showBookingForm && (
+  <div className="booking-overlay" onClick={() => setShowBookingForm(false)}>
+    <div className="booking-form" onClick={(e) => e.stopPropagation()}>
+      <h2>Liên hệ đặt bàn</h2>
+      <p>
+        Quý khách vui lòng đặt bàn trước để chúng tôi sắp xếp cho quý
+        khách chỗ ngồi tốt nhất!
+      </p>
+      <form onSubmit={handleBookingSubmit}>
+        <div className="form-grid">
+          <div>
+            <label>Tên của bạn:</label>
+            <input type="text" placeholder="Tên của bạn..." required />
+          </div>
+          <div>
+            <label>Số người:</label>
+            <input type="number" placeholder="Số người" required />
+          </div>
+          <div>
+            <label>Số điện thoại của bạn:</label>
+            <input type="tel" placeholder="Số điện thoại..." required />
+          </div>
+          <div>
+            <label>Bạn có thể tới dùng bữa ngày nào?</label>
+            <input type="date" required />
+          </div>
+          <div>
+            <label>Email của bạn (nếu có):</label>
+            <input type="email" placeholder="Email của bạn..." />
+          </div>
+          <div>
+            <label>Thời gian:</label>
+            <select required>
+              <option value="">Thời gian</option>
+              <option value="10:00">10:00</option>
+              <option value="12:00">12:00</option>
+              <option value="18:00">18:00</option>
+              <option value="20:00">20:00</option>
+            </select>
+          </div>
+        </div>
+        <p>
+          Khách đặt tiệc hội nghị, liên hoan vui lòng gọi trực tiếp:{" "}
+          <strong>0909090909</strong>
+        </p>
+        <button type="submit" className="submit-btn">
+          Đặt bàn ngay
+        </button>
+      </form>
+    </div>
+  </div>
+)}
+
+{showSuccess && (
+  <div className="booking-overlay">
+    <div className="booking-success animate-success">
+      <div className="success-icon">✔</div>
+      <h2>🎉 Bạn đã đặt bàn thành công!</h2>
+      <p>Chúng tôi sẽ liên hệ xác nhận với bạn sớm nhất.</p>
+    </div>
+  </div>
+)}
 
   {/* Khóa học nổi bật */}
 <section className="courses section-content relative">
@@ -91,16 +173,17 @@ export default function Home() {
     <div className="col col-fix-bottom col-gtkh medium-6 small-12 large-6">
       <div className="col-inner text-left">
         <div className="text">
-          <p className="h2 title-col-img-left">Khóa học Bếp Gia Đình</p>
+          <p className="h2 title-col-img-left">🌿 Giới thiệu về Nhà hàng Vị Mộc Việt</p>
           <p>
-            Khóa học nấu ăn gia đình giúp bạn tự tin trổ tài nấu nướng chỉ trong 3 buổi học. 
-            Dành tặng cho người thân, gia đình, bạn bè những món ăn thơm ngon, đậm đà.
+          “Mộc” – là sự giản dị, chân thành, không tô vẽ. Là chất liệu tự nhiên, là cái gốc gác thô mộc nhưng đầy sức sống.
+          “Việt” – là hồn dân tộc, là bản sắc ẩm thực quê nhà, là những món ăn đi cùng ký ức của bao thế hệ.
+          Khi ghép lại, “Mộc Việt” không chỉ là tên gọi, mà là tinh thần mà chúng tôi theo đuổi
           </p>
         </div>
         <a 
           data-animate="fadeInRight"
           rel="nofollow"
-          href="/ViMocViet/NauAnCoBan"
+          href="Aboutus"
           target="_self"
           className="button success lowercase text-center button-redmore"
           data-animated="true"
@@ -128,7 +211,6 @@ export default function Home() {
                 <Image src={dish.img} alt={dish.name} width={200} height={150} />
                 <h3>{dish.name}</h3>
                 <p>Giá: {dish.price}</p>
-                <button className="buy-btn">ĐẶT MÓN</button>
               </div>
             ))}
           </div>
@@ -138,11 +220,24 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="Uudai">
+        <h1>Ưu Đãi Đặc Biệt Cho Tháng 4</h1>
+      </div>
+
+      {/* Banner Grid Section */}
+      <BannerGrid />
+
       {/* Best Seller Section */}
       <BestSeller />
 
+      {/* Why Choose Us Section */}
+      <WhyChooseUs />
+
       {/* Đội Ngũ Bếp Section */}
       <Doingubep />
+
+      {/*NewPosts Section */}
+      <NewPosts />
 
       {/* Footer */}
       <Footer />

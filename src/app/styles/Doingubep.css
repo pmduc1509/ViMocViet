@@ -8,13 +8,10 @@
 .section-title {
     display: flex;
     justify-content: center;
-    background-color: #6b3b20;
-    color: white;
+    color: black;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 35px;
     padding: 10px 20px;
-    text-transform: uppercase;
-    display: inline-block;
 }
 
 .doingubep-list {

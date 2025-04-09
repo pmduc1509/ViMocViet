@@ -55,7 +55,6 @@ const CookingPage = () => {
                 <Image src={dish.img} alt={dish.name} width={250} height={180} />
                 <h3>{dish.name}</h3>
                 <p className="price">Giá: {dish.price}</p>
-                <button className="buy-btn">MUA KHÓA HỌC</button>
               </div>
             ))}
           </div>

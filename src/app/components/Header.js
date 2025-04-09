@@ -70,11 +70,7 @@ const HeaderNav = () => {
         <Link href="/">TRANG CHỦ</Link>
 
         <div className="nav-item">
-          <Link href="">HỌC NẤU ĂN</Link>
-          <div className="dropdown">
-            <Link href="/NauAnCoBan">Khóa cơ bản</Link>
-            <Link href="/NauAnNangCao">Khóa nâng cao</Link>
-          </div>
+          <Link href="">SỰ KIỆN</Link>
         </div>
 
         <div className="nav-item">
