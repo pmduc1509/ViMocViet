@@ -1,0 +1,42 @@
+.music-event-section {
+    position: relative;
+    background-image: url('/image/demnhac.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .music-event-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .music-event-content {
+    color: white;
+    max-width: 800px;
+    padding: 0 1rem;
+  }
+  
+  .music-event-content h2 {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .music-event-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  

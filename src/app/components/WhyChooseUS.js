@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
       {/* Nội dung chính */}
       <div className="relative z-[2] max-w-screen-xl mx-auto px-6 py-20 text-center">
         <h2 className="text-4xl font-normal italic mb-4 tracking-wide"style={{ fontFamily: '"Lobster", sans-serif' }}>
-          Tại sao nên chọn Nhà hàng Lẩu hơi Trung Thành
+          Tại sao nên chọn Nhà hàng Vị Mộc Việt
         </h2>
     
         <p className="text-base md:text-lg text-gray-200 max-w-4xl mx-auto mb-14 leading-relaxed">

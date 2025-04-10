@@ -70,7 +70,7 @@ const HeaderNav = () => {
         <Link href="/">TRANG CHỦ</Link>
 
         <div className="nav-item">
-          <Link href="">SỰ KIỆN</Link>
+          <Link href="/PromoEvents">SỰ KIỆN</Link>
         </div>
 
         <div className="nav-item">

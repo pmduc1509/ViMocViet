@@ -1,0 +1,110 @@
+/* PromoEvents.css */
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6ed;
+  }
+  
+  .promo-events {
+    color: #333;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url("/image/banner3.jpg") center/cover no-repeat;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .daily-deals, .events {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    max-width: 280px;
+    margin: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .events ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: left;
+  }
+  
+  .events li {
+    background: #fff3e0;
+    border-left: 5px solid #f04e23;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .daily-deals h2 {
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+  }
