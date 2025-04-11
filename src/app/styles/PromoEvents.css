@@ -24,11 +24,16 @@ body {
   }
   
   .hero {
-    background: url("/image/banner3.jpg") center/cover no-repeat;
+    background: url("/image/banner5.jpg") center center no-repeat;
+    background-size: cover;
     padding: 4rem 2rem;
     text-align: center;
     color: white;
-  }
+    height: 400px;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }  
   
   .hero-content h1 {
     font-size: 2.5rem;
@@ -66,8 +71,9 @@ body {
   }
   
   .card img {
-    max-width: 100%;
+    width: 250px;;
     border-radius: 10px;
+    height: 200px;
   }
   
   .card h3 {

@@ -1,11 +1,10 @@
-import Image from "next/image";
 
 export default function WhyChooseUs() {
   return (
       <section className="relative text-white min-h-[600px] overflow-hidden">
       {/* Ảnh nền */}
       <img
-        src="/image/banner4.png"
+        src="/Image/banner4.png"
         alt="Ảnh nền nhà hàng"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

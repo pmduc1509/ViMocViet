@@ -4,6 +4,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "../styles/Checkout.css"
+import Link from 'next/link';
 
 const CartCheckout = () => {
   const [selectedMethod, setSelectedMethod] = useState(""); 
@@ -20,14 +21,14 @@ const CartCheckout = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
         <div className="main-logo">
-          <a href="/">
+          <Link href="/">
             <img
               src="./Image/logo.png"
               alt="logo"
               className="img-fluid"
               style={{ height: "auto" }}
             />
-          </a>
+          </Link>
         </div>
         <button
           type="button"

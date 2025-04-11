@@ -30,9 +30,9 @@ const ContactForm = () => {
   return (
     <div className="contact-container">
       <div className="contact-content">
-        <h2 className="contact-title">Stay In Touch</h2>
+        <h2 className="contact-title">Liên Hệ Với Chúng TôiTôi</h2>
         <p className="contact-description">
-          Fill out the form below and we’ll get back to you as soon as possible.
+          Hãy Gửi Các Góp Ý Của Bạn Cho Chúng Tôi Tại Đây Để Vị Mộc Việt Ngày Càng Tốt Hơn !
         </p>
       </div>
       <form className="contact-form" onSubmit={handleSubmit}>
@@ -40,7 +40,7 @@ const ContactForm = () => {
           <input className="input"
             type="text"
             name="firstName"
-            placeholder="First Name *"
+            placeholder="HọHọ *"
             value={formData.firstName}
             onChange={handleChange}
             required
@@ -48,7 +48,7 @@ const ContactForm = () => {
           <input className="input"
             type="text"
             name="lastName"
-            placeholder="Last Name *"
+            placeholder="TênTên *"
             value={formData.lastName}
             onChange={handleChange}
             required
@@ -65,18 +65,18 @@ const ContactForm = () => {
         <input className="input"
           type="text"
           name="phone"
-          placeholder="Phone"
+          placeholder="Số Điện Thoại"
           value={formData.phone}
           onChange={handleChange}
         />
         <textarea className="input"
           name="message"
-          placeholder="Message"
+          placeholder="Góp Ý"
           value={formData.message}
           onChange={handleChange}
           rows="4"
         ></textarea>
-        <button type="submit" className="contact-submit">Submit</button>
+        <button type="submit" className="contact-submit">Gửi</button>
       </form>
     </div>
   );
